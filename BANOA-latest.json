@@ -1,0 +1,1997 @@
+{
+  "group" : "BANOA",
+  "reportTime" : 1713419567868,
+  "memberIdNameMap" : null,
+  "lastBranchCommits" : {
+    "select" : {
+      "hash" : "425041f934c94b8bc9035e3ef238e737a06a26fd",
+      "date" : 1713175037000,
+      "id" : null
+    },
+    "column" : {
+      "hash" : "5c22990d9a74574aa0bab20bf52ae03e7fe38cdc",
+      "date" : 1713168192000,
+      "id" : null
+    },
+    "insert" : {
+      "hash" : "85309a9fb83d82a8ebb8ea0584454e3d3810728b",
+      "date" : 1711452363000,
+      "id" : null
+    },
+    "revoke" : {
+      "hash" : "ed88d39ece72ebcb1e0a3d27e7252109e46519a1",
+      "date" : 1712817042000,
+      "id" : null
+    },
+    "update" : {
+      "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+      "date" : 1712819962000,
+      "id" : null
+    },
+    "deleteuser" : {
+      "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+      "date" : 1712816281000,
+      "id" : null
+    },
+    "main" : {
+      "hash" : "91800e3d89ef0562a94f0413ec94d74cd0d70510",
+      "date" : 1713175041000,
+      "id" : null
+    },
+    "develop" : {
+      "hash" : "66ed4fd1ea3634d81e135b6da4e84e69077d5745",
+      "date" : 1713174849000,
+      "id" : null
+    },
+    "createsecurityprofile" : {
+      "hash" : "8dad4d650c85667016fee0ba1aa9dc5fc164d8af",
+      "date" : 1711357528000,
+      "id" : null
+    },
+    "delete" : {
+      "hash" : "9e0b2b65f3fa071c3c4a225511cc5cbc568f2ebb",
+      "date" : 1713168966000,
+      "id" : null
+    },
+    "minisqlparser" : {
+      "hash" : "699fe04929129613177967ef94199bc65cfc1d9d",
+      "date" : 1713174287000,
+      "id" : null
+    },
+    "condition" : {
+      "hash" : "4f82e5c32781ee1c76cb2f3f49a620e4f99e37ef",
+      "date" : 1710406624000,
+      "id" : null
+    },
+    "adduser" : {
+      "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+      "date" : 1711364797000,
+      "id" : null
+    },
+    "create-table" : {
+      "hash" : "69004be2f9b87e5f1da9404d23b41212f242fd4d",
+      "date" : 1709799919000,
+      "id" : null
+    },
+    "dropsecurityprofile" : {
+      "hash" : "69004be2f9b87e5f1da9404d23b41212f242fd4d",
+      "date" : 1709799919000,
+      "id" : null
+    },
+    "droptable" : {
+      "hash" : "a747de5ccc41e77a82f94cd9e3f6ef73d24d61a4",
+      "date" : 1711005286000,
+      "id" : null
+    },
+    "grant" : {
+      "hash" : "3f22a25339e4f8dcd367e5bc45a6c0e81b266588",
+      "date" : 1713168978000,
+      "id" : null
+    }
+  },
+  "mainCompiles" : true,
+  "mainPassesWhiteboxTests" : true,
+  "developCompiles" : true,
+  "developPassesWhiteBoxTests" : false,
+  "mainCoverage" : 0,
+  "developCoverage" : -1,
+  "testsPassedBySuite" : null,
+  "testFailedBySuite" : null,
+  "testPassedOn" : {
+    "ClassMethodTests" : {
+      "createTableWithoutColumns" : [ {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      } ],
+      "tableColumnByName" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "4f82e5c32781ee1c76cb2f3f49a620e4f99e37ef",
+        "date" : 1710406624000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "3a419fff52298081918111ea78906722c2e002e8",
+        "date" : 1710176988000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "aef5914ea43ecc678e6c48ce572ca457fd781a52",
+        "date" : 1710154836000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "faf3c910777a2d418da661263876a0edd642e8ef",
+        "date" : 1712045214000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      } ],
+      "conditionsWithInts" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "4a1f2402c80da839a345b9a25f5d5771c2b364f3",
+        "date" : 1710154818000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      } ],
+      "conditionsWithStrings" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "4a1f2402c80da839a345b9a25f5d5771c2b364f3",
+        "date" : 1710154818000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      } ],
+      "columnAddValue" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "5b6e009d83f9e73137467e75559b37659ef1bb8c",
+        "date" : 1713174815000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "conditionsWithDoubles" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "4a1f2402c80da839a345b9a25f5d5771c2b364f3",
+        "date" : 1710154818000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      } ],
+      "columnIndicesWhereIsTrueDouble" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "4f82e5c32781ee1c76cb2f3f49a620e4f99e37ef",
+        "date" : 1710406624000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "699fe04929129613177967ef94199bc65cfc1d9d",
+        "date" : 1713174287000,
+        "id" : "afuentes030"
+      } ],
+      "tableDeleteColumn" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "4f82e5c32781ee1c76cb2f3f49a620e4f99e37ef",
+        "date" : 1710406624000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "3a419fff52298081918111ea78906722c2e002e8",
+        "date" : 1710176988000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "faf3c910777a2d418da661263876a0edd642e8ef",
+        "date" : 1712045214000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      } ],
+      "tableColumnAddColumn" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "columnIndicesWhereIsTrueInt" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "4f82e5c32781ee1c76cb2f3f49a620e4f99e37ef",
+        "date" : 1710406624000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "699fe04929129613177967ef94199bc65cfc1d9d",
+        "date" : 1713174287000,
+        "id" : "afuentes030"
+      } ],
+      "columnIndicesWhereIsTrueString" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "4f82e5c32781ee1c76cb2f3f49a620e4f99e37ef",
+        "date" : 1710406624000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "699fe04929129613177967ef94199bc65cfc1d9d",
+        "date" : 1713174287000,
+        "id" : "afuentes030"
+      } ]
+    },
+    "SecurityTests" : {
+      "grantPrivilegeNotBeingAdminShouldDoNothing" : [ {
+        "hash" : "6519dd1376b6981e18294b95abca39f9737ff3f1",
+        "date" : 1711360503000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "3f22a25339e4f8dcd367e5bc45a6c0e81b266588",
+        "date" : 1713168978000,
+        "id" : "arodriguez447"
+      } ],
+      "revokePrivilegeNotBeingAdminShouldDoNothing" : [ {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "6519dd1376b6981e18294b95abca39f9737ff3f1",
+        "date" : 1711360503000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "3f22a25339e4f8dcd367e5bc45a6c0e81b266588",
+        "date" : 1713168978000,
+        "id" : "arodriguez447"
+      } ],
+      "RemoveProfileNotBeingAdminShouldDoNothing" : [ {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "6519dd1376b6981e18294b95abca39f9737ff3f1",
+        "date" : 1711360503000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "389b80151ddbea59fccfeab3028b0223636c3c7b",
+        "date" : 1711728281000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "b55a28dde81f1d6f3303b9b17d86373bc7089bc9",
+        "date" : 1712564211000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "3f22a25339e4f8dcd367e5bc45a6c0e81b266588",
+        "date" : 1713168978000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "CreateProfileNotBeingAdminShouldDoNothing" : [ {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "389b80151ddbea59fccfeab3028b0223636c3c7b",
+        "date" : 1711728281000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "b55a28dde81f1d6f3303b9b17d86373bc7089bc9",
+        "date" : 1712564211000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "loadNonExistentDatabaseSinSeguridad" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ]
+    },
+    "ParsingTests" : {
+      "InsertDoubleValues" : [ {
+        "hash" : "4735e8686592e3fbb912ca61b625ae482df9cde6",
+        "date" : 1710758870000,
+        "id" : "afuentes030"
+      } ],
+      "DropTableMultiplesTablas" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "UpdateMultiplesTablas" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "DeleteCapitalizacionIncorrecta" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "DeleteSinCondicion" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "InsertIntValues" : [ {
+        "hash" : "4735e8686592e3fbb912ca61b625ae482df9cde6",
+        "date" : 1710758870000,
+        "id" : "afuentes030"
+      } ],
+      "CreateTableCapitalizacionIncorrecta" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "DeleteConEspaciosIncorrectos" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "InsertConEspacios" : [ {
+        "hash" : "4735e8686592e3fbb912ca61b625ae482df9cde6",
+        "date" : 1710758870000,
+        "id" : "afuentes030"
+      } ],
+      "CreateTableMalFormado" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "DropTableSinTabla" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "SelectIncorrectoContenidoExtraDespues" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "InsertConEspaciosIncorrectos" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "e5ab44960dc2f211381883be792cc8fb1f510653",
+        "date" : 1711005997000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "SelectIncorrectoEspaciosEntreColumnas" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "DropTableCapitalizacionIncorrecta" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "CreateTableIncorrectosMultiplesColumnas" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "SelectCapitalizacionIncorrecta" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "UpdateConEspaciosIncorrectos" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "InsertMultiplesTablas" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "DeleteMultiplesTablas" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ]
+    },
+    "MiniSQLTests" : {
+      "LoadNonExistentTable" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9be4ddcae50b9c4b83559c4909422f9a9aa83918",
+        "date" : 1712819962000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "79a54fec2fae086d75f1ba50f144fea2c0b56f06",
+        "date" : 1712174018000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "SyntacticalErrors" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ],
+      "SelectSynctaticalError" : [ {
+        "hash" : "a889d35e1392f4ed36fa357a040f510fa499ca23",
+        "date" : 1712822144000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "59994328fc6ae3394f8190b53dbc1b67b0a4d1fd",
+        "date" : 1712570163000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "7e250ebbd48b60695aa19f9084185ab8c7b0ea98",
+        "date" : 1711358171000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "b888a598bb9a7846b77e19cfcca75ff8c0fb71c0",
+        "date" : 1712564163000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "569d1d7f7100bedb56e1a03d98bbd734d19d438b",
+        "date" : 1711360943000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "d1436e0262fc3fc422df7417d5c8251c8200e604",
+        "date" : 1711005858000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "b6a4ece171278c013726926da67021e04fc69088",
+        "date" : 1713174817000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "fe7eec7b21ddae84d8f4feb36aa7a7a76c28872d",
+        "date" : 1712569880000,
+        "id" : "oyanes001"
+      }, {
+        "hash" : "a67b30b7d8f44f4db266063b40576205b1ac6b41",
+        "date" : 1712564350000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "2ff449dad22f74bf593870615055b2a155e7fa5d",
+        "date" : 1712174642000,
+        "id" : "arodriguez447"
+      }, {
+        "hash" : "9123b3ef78768d57242384a54411a88eef12b92e",
+        "date" : 1712070356000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "20a64754319e59c3ac94aba7c9eaa27e85688e66",
+        "date" : 1712565723000,
+        "id" : "nalbaina002"
+      }, {
+        "hash" : "ed7f976cbe8f1f7158e7dafaf80e9c0a8b879df0",
+        "date" : 1712568505000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "cf8f9c2d00503618361e7a4a52d1c58f41e0e000",
+        "date" : 1712816281000,
+        "id" : "aquesada006"
+      }, {
+        "hash" : "ca73448c277d6238b61f3aefbf9da6ab2c9c017c",
+        "date" : 1711362806000,
+        "id" : "afuentes030"
+      }, {
+        "hash" : "487736d93ff304332c8df31792cfb3816889244a",
+        "date" : 1711364797000,
+        "id" : "oyanes001"
+      } ]
+    },
+    "SecurityMiniSQLTests" : { }
+  },
+  "testsPassedByBranch" : { },
+  "percentagePassedBySuiteMain" : {
+    "ClassMethodTests" : 0.1,
+    "SecurityTests" : 0.2,
+    "ParsingTests" : 0.4146341463414634,
+    "MiniSQLTests" : 0.16666666666666666,
+    "SecurityMiniSQLTests" : 0.0
+  },
+  "countPassedBySuiteMain" : null,
+  "percentagePassedBySuiteDevelop" : {
+    "ClassMethodTests" : 0.3333333333333333,
+    "SecurityTests" : 0.0,
+    "ParsingTests" : 0.4146341463414634,
+    "MiniSQLTests" : 0.1111111111111111,
+    "SecurityMiniSQLTests" : 0.0
+  },
+  "testsPassedDevelop" : {
+    "ClassMethodTests" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+    "ParsingTests" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+    "MiniSQLTests" : [ "SyntacticalErrors", "SelectSynctaticalError" ]
+  },
+  "testsFailedDevelop" : {
+    "ClassMethodTests" : [ "createInsertUpdateDeleteSelectWithConditions", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "createInsertSelectWhereGreaterInt", "createTable", "columnUpdate", "createInsertSelectColumns", "columnDeleteAt", "columnConstructor", "createTableWithoutColumns", "columnSetValue", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsertDeleteSelectColumns", "createInsert", "createInsertSelectWhereEqualInt", "createInsertSelectWhereLessInt", "createDropSelectNonExistent", "tableConstructor" ],
+    "SecurityTests" : [ "CheckUserCorrectPassword", "SaveAndLoadDatabaseWithIncorrectCredentials", "RemoveProfileNotBeingAdminShouldDoNothing", "SaveAndLoad2Manager", "CheckPrivilegesGrantedRevokedCorrectly", "SaveAndLoadDatabaseWithIncorrectCredentials2", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing", "SaveAndLoadManager", "saveAndLoadDatabase4SinSeguridad", "saveAndLoadDatabase3SinSeguridad", "saveAndLoadDatabase2SinSeguridad", "revokePrivilegeNotBeingAdminShouldDoNothing", "saveAndLoadDatabase1SinSeguridad", "grantPrivilegeNotBeingAdminShouldDoNothing" ],
+    "ParsingTests" : [ "SelectUnaColumnaEspacios", "DeleteWhereString", "DeleteConEspacios", "UpdateDouble", "UpdateDoubleMultiplesColumnas", "DeleteWhereInt", "UpdateString", "InsertDifferentDatatypes", "UpdateIntMultiplesColumnas", "SelectMultiplesColumnas", "DropTableConEspacios", "UpdateInt", "UpdateStringMultiplesColumnas", "CreateTableMultiplesColumnas", "SelectUnaColumna", "InsertStringValues", "InsertConEspacios", "CreateTable", "InsertIntValues", "CreateTableConEspacios", "DropTable", "UpdateConEspacios", "InsertDoubleValues", "DeleteWhereDouble" ],
+    "MiniSQLTests" : [ "CreateInsertDeleteAndSelectColumns", "SelectTablaNoExiste", "CreateTableYaExiste", "CreateDropSelectTablaNoExiste", "CreateTableInsertAndSelectWhereVacio", "LoadNonExistentTable", "CreateTableAndInsert", "CreateInsertUpdate", "CreateInsertUpdateDeleteSelectConCondiion", "CreateInsertSelectConCondition", "CreateTableSinColumnas", "CreateTable", "CreateInsertSelectWhere", "CreateInsertTablaNoExiste", "SelectColumnaNoExiste", "DropTableNoExiste" ],
+    "SecurityMiniSQLTests" : [ "DropNonExistentProfileSinSerAdmin", "DropProfileNoExiste", "AnadirPerfilGrantPrivilege", "CreateSecurityProfileComprobarPermisos", "AddUserSinSerAdmin", "DeleteUser", "RevokePrivilege", "CreateSecurityProfileComprobarPrivilegeSinSerAdmin", "DropSecurityProfile", "DeleteUserSinSerAdmin", "DeleteUserNoExiste", "AddUser", "DropSecurityProfileSinSerAdmin", "RevokeProfilePrivilegesSinSerAdmin", "AddProfilePrivilegesSinSerAdmin" ]
+  },
+  "testPassedBranches" : {
+    "ClassMethodTests" : {
+      "select" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableColumnByName", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "column" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "insert" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableColumnAddColumn" ],
+      "revoke" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "update" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "deleteuser" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "createsecurityprofile" : [ ],
+      "delete" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "minisqlparser" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "condition" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "adduser" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableColumnAddColumn" ],
+      "create-table" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "dropsecurityprofile" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "droptable" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "grant" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ]
+    },
+    "SecurityTests" : {
+      "select" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "column" : [ "SecurityTests.loadNonExistentDatabaseSinSeguridad" ],
+      "insert" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "revoke" : [ ],
+      "update" : [ "SecurityTests.loadNonExistentDatabaseSinSeguridad" ],
+      "deleteuser" : [ "SecurityTests.loadNonExistentDatabaseSinSeguridad" ],
+      "createsecurityprofile" : [ ],
+      "delete" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "minisqlparser" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "condition" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "adduser" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "create-table" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "dropsecurityprofile" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "droptable" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "grant" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.revokePrivilegeNotBeingAdminShouldDoNothing", "SecurityTests.grantPrivilegeNotBeingAdminShouldDoNothing" ]
+    },
+    "ParsingTests" : {
+      "select" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "column" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "insert" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "revoke" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "update" : [ ],
+      "deleteuser" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "createsecurityprofile" : [ ],
+      "delete" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "minisqlparser" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "condition" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "adduser" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "create-table" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "dropsecurityprofile" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "droptable" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "grant" : [ ]
+    },
+    "MiniSQLTests" : {
+      "select" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "column" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "insert" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "revoke" : [ "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "update" : [ "MiniSQLTests.LoadNonExistentTable" ],
+      "deleteuser" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "createsecurityprofile" : [ ],
+      "delete" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "minisqlparser" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "condition" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "adduser" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "create-table" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "dropsecurityprofile" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "droptable" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "grant" : [ "MiniSQLTests.LoadNonExistentTable" ]
+    },
+    "SecurityMiniSQLTests" : {
+      "select" : [ ],
+      "column" : [ ],
+      "insert" : [ ],
+      "revoke" : [ ],
+      "update" : [ ],
+      "deleteuser" : [ ],
+      "createsecurityprofile" : [ ],
+      "delete" : [ ],
+      "minisqlparser" : [ ],
+      "condition" : [ ],
+      "adduser" : [ ],
+      "create-table" : [ ],
+      "dropsecurityprofile" : [ ],
+      "droptable" : [ ],
+      "grant" : [ ]
+    }
+  }
+}

@@ -1,0 +1,743 @@
+{
+  "group" : "tatunes",
+  "reportTime" : 1713419567868,
+  "memberIdNameMap" : null,
+  "lastBranchCommits" : {
+    "3-column" : {
+      "hash" : "e43d3b4bb7471a88b00c5c9d6dab2b8a9a35fdd0",
+      "date" : 1712567506000,
+      "id" : null
+    },
+    "6-select" : {
+      "hash" : "a5bdb0843c5680f9a19b021ae9613db85aed31a2",
+      "date" : 1710405858000,
+      "id" : null
+    },
+    "9-update" : {
+      "hash" : "75a40b28f7a4d774a93e378103444ca0ae45323c",
+      "date" : 1710759365000,
+      "id" : null
+    },
+    "main" : {
+      "hash" : "51d14b96df677ffdddc53e191e83d35e57638089",
+      "date" : 1709802345000,
+      "id" : null
+    },
+    "13-select" : {
+      "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+      "date" : 1713174963000,
+      "id" : null
+    },
+    "develop" : {
+      "hash" : "7fb9d66dcde92d5193eadf9ec8eb639a33f698be",
+      "date" : 1713170495000,
+      "id" : null
+    },
+    "4-database" : {
+      "hash" : "38bd1ccac70660ec0e920d4b7a26befbaa57c8d2",
+      "date" : 1711007584000,
+      "id" : null
+    },
+    "12-createtable-+-droptable" : {
+      "hash" : "b84c1e135cd8cf88d033413413ff1c35903b07a2",
+      "date" : 1713174964000,
+      "id" : null
+    },
+    "5-table" : {
+      "hash" : "d47bbb07d39ff9920cf3d9665d0ff31bc43fba9e",
+      "date" : 1713170317000,
+      "id" : null
+    },
+    "15-parser" : {
+      "hash" : "a0f2257c9cac35ef5d9da81144d0db7b75037a40",
+      "date" : 1713175059000,
+      "id" : null
+    },
+    "1-createtable" : {
+      "hash" : "ef5fdd92a9d3eb525145bc339bf8c07ba0430fe6",
+      "date" : 1711005831000,
+      "id" : null
+    },
+    "8-minisqlparser" : {
+      "hash" : "22e09eea2dcb692980840e882ff449500060569d",
+      "date" : 1710403649000,
+      "id" : null
+    },
+    "2-insert" : {
+      "hash" : "87f621722225313e25eb2536402439fd9404a7c9",
+      "date" : 1710402293000,
+      "id" : null
+    },
+    "10-condition" : {
+      "hash" : "3af8385b0167c1e48ad147fc32bbf4954caee875",
+      "date" : 1712569736000,
+      "id" : null
+    },
+    "11-insert-+-delete" : {
+      "hash" : "d8e3a5d9616e080e180464386e26aa989c7d5b5e",
+      "date" : 1712821608000,
+      "id" : null
+    },
+    "14-update" : {
+      "hash" : "c1a58d8d2ae286ba35d9a2959210acdbd4b35430",
+      "date" : 1711008374000,
+      "id" : null
+    },
+    "7-delete" : {
+      "hash" : "c02173442b217fd122b91fd4d300df2029419b41",
+      "date" : 1711005020000,
+      "id" : null
+    }
+  },
+  "mainCompiles" : false,
+  "mainPassesWhiteboxTests" : false,
+  "developCompiles" : true,
+  "developPassesWhiteBoxTests" : false,
+  "mainCoverage" : 0,
+  "developCoverage" : -1,
+  "testsPassedBySuite" : null,
+  "testFailedBySuite" : null,
+  "testPassedOn" : {
+    "ClassMethodTests" : {
+      "tableColumnByName" : [ {
+        "hash" : "f896ed1d34f8a1c5ff5bb8801024ade7449d0fdb",
+        "date" : 1709801987000,
+        "id" : "ffernandez032"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "conditionsWithInts" : [ {
+        "hash" : "1ed8a934fc04de4fc3f05ba3a9e9d852a33974b4",
+        "date" : 1710757843000,
+        "id" : "mgioiello001"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      } ],
+      "columnAddValue" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "columnIndicesWhereIsTrueDouble" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "7fc6624315938f8d30cb23d745e088807fe1a01e",
+        "date" : 1711008316000,
+        "id" : "mgioiello001"
+      } ],
+      "tableDeleteColumn" : [ {
+        "hash" : "f896ed1d34f8a1c5ff5bb8801024ade7449d0fdb",
+        "date" : 1709801987000,
+        "id" : "ffernandez032"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "tableColumnAddColumn" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "columnIndicesWhereIsTrueString" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "7fc6624315938f8d30cb23d745e088807fe1a01e",
+        "date" : 1711008316000,
+        "id" : "mgioiello001"
+      } ],
+      "columnSetValue" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "73cac3756b275bf5927985b1630218b040e27fb9",
+        "date" : 1709802229000,
+        "id" : "mgioiello001"
+      } ],
+      "columnUpdate" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "7fc6624315938f8d30cb23d745e088807fe1a01e",
+        "date" : 1711008316000,
+        "id" : "mgioiello001"
+      } ],
+      "createTableWithoutColumns" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "conditionsWithStrings" : [ {
+        "hash" : "1ed8a934fc04de4fc3f05ba3a9e9d852a33974b4",
+        "date" : 1710757843000,
+        "id" : "mgioiello001"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      } ],
+      "conditionsWithDoubles" : [ {
+        "hash" : "1ed8a934fc04de4fc3f05ba3a9e9d852a33974b4",
+        "date" : 1710757843000,
+        "id" : "mgioiello001"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      } ],
+      "columnIndicesWhereIsTrueInt" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "7fc6624315938f8d30cb23d745e088807fe1a01e",
+        "date" : 1711008316000,
+        "id" : "mgioiello001"
+      } ],
+      "columnDeleteAt" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "73cac3756b275bf5927985b1630218b040e27fb9",
+        "date" : 1709802229000,
+        "id" : "mgioiello001"
+      } ]
+    },
+    "SecurityTests" : {
+      "RemoveProfileNotBeingAdminShouldDoNothing" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "CreateProfileNotBeingAdminShouldDoNothing" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "loadNonExistentDatabaseSinSeguridad" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ]
+    },
+    "ParsingTests" : {
+      "DropTableMultiplesTablas" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "UpdateMultiplesTablas" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "DeleteCapitalizacionIncorrecta" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "DeleteSinCondicion" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "CreateTableCapitalizacionIncorrecta" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "DeleteConEspaciosIncorrectos" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "CreateTableMalFormado" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "DropTableSinTabla" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "SelectIncorrectoContenidoExtraDespues" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "InsertConEspaciosIncorrectos" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "SelectIncorrectoEspaciosEntreColumnas" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "DropTableCapitalizacionIncorrecta" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "CreateTableIncorrectosMultiplesColumnas" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "SelectCapitalizacionIncorrecta" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "UpdateConEspaciosIncorrectos" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "InsertMultiplesTablas" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "DeleteMultiplesTablas" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "efb7dc9cf052a2cb8357cf94c74df32448077d45",
+        "date" : 1711364087000,
+        "id" : "amontero023"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ]
+    },
+    "MiniSQLTests" : {
+      "LoadNonExistentTable" : [ {
+        "hash" : "2d09839fe3856d48d7d9ff0a3fa03214291e8b5d",
+        "date" : 1712569966000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "SyntacticalErrors" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ],
+      "SelectSynctaticalError" : [ {
+        "hash" : "0bb39ef0637782a8bfa314b70595a049f97ef5bd",
+        "date" : 1710154736000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "19fab696fb4d8912789ca757fe73cc6b0cdf7aa6",
+        "date" : 1713174963000,
+        "id" : "mgomez173"
+      }, {
+        "hash" : "8fc1affda6d0e0722ce3e3e52a079c298de59b0e",
+        "date" : 1710406700000,
+        "id" : "ffernandez032"
+      } ]
+    },
+    "SecurityMiniSQLTests" : { }
+  },
+  "testsPassedByBranch" : { },
+  "percentagePassedBySuiteMain" : {
+    "ClassMethodTests" : 0.0,
+    "SecurityTests" : 0.0,
+    "ParsingTests" : 0.0,
+    "MiniSQLTests" : 0.0,
+    "SecurityMiniSQLTests" : 0.0
+  },
+  "countPassedBySuiteMain" : null,
+  "percentagePassedBySuiteDevelop" : {
+    "ClassMethodTests" : 0.4,
+    "SecurityTests" : 0.13333333333333333,
+    "ParsingTests" : 0.4146341463414634,
+    "MiniSQLTests" : 0.0,
+    "SecurityMiniSQLTests" : 0.0
+  },
+  "testsPassedDevelop" : {
+    "ClassMethodTests" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnSetValue", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+    "SecurityTests" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+    "ParsingTests" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ]
+  },
+  "testsFailedDevelop" : {
+    "ClassMethodTests" : [ "createInsertUpdateDeleteSelectWithConditions", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "createInsertSelectWhereGreaterInt", "createTable", "createInsertSelectColumns", "columnDeleteAt", "columnConstructor", "createTableWithoutColumns", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsertDeleteSelectColumns", "createInsert", "createInsertSelectWhereEqualInt", "createInsertSelectWhereLessInt", "createDropSelectNonExistent", "tableConstructor" ],
+    "SecurityTests" : [ "CheckUserCorrectPassword", "SaveAndLoadDatabaseWithIncorrectCredentials", "SaveAndLoad2Manager", "CheckPrivilegesGrantedRevokedCorrectly", "SaveAndLoadDatabaseWithIncorrectCredentials2", "loadNonExistentDatabaseSinSeguridad", "SaveAndLoadManager", "saveAndLoadDatabase4SinSeguridad", "saveAndLoadDatabase3SinSeguridad", "saveAndLoadDatabase2SinSeguridad", "revokePrivilegeNotBeingAdminShouldDoNothing", "saveAndLoadDatabase1SinSeguridad", "grantPrivilegeNotBeingAdminShouldDoNothing" ],
+    "ParsingTests" : [ "SelectUnaColumnaEspacios", "DeleteWhereString", "DeleteConEspacios", "UpdateDouble", "UpdateDoubleMultiplesColumnas", "DeleteWhereInt", "UpdateString", "InsertDifferentDatatypes", "UpdateIntMultiplesColumnas", "SelectMultiplesColumnas", "DropTableConEspacios", "UpdateInt", "UpdateStringMultiplesColumnas", "CreateTableMultiplesColumnas", "SelectUnaColumna", "InsertStringValues", "InsertConEspacios", "CreateTable", "InsertIntValues", "CreateTableConEspacios", "DropTable", "UpdateConEspacios", "InsertDoubleValues", "DeleteWhereDouble" ],
+    "MiniSQLTests" : [ "CreateInsertDeleteAndSelectColumns", "SelectTablaNoExiste", "CreateTableYaExiste", "CreateDropSelectTablaNoExiste", "CreateTableInsertAndSelectWhereVacio", "LoadNonExistentTable", "CreateTableAndInsert", "CreateInsertUpdate", "CreateInsertUpdateDeleteSelectConCondiion", "CreateInsertSelectConCondition", "SyntacticalErrors", "CreateTableSinColumnas", "SelectSynctaticalError", "CreateTable", "CreateInsertSelectWhere", "CreateInsertTablaNoExiste", "SelectColumnaNoExiste", "DropTableNoExiste" ],
+    "SecurityMiniSQLTests" : [ "DropNonExistentProfileSinSerAdmin", "DropProfileNoExiste", "AnadirPerfilGrantPrivilege", "CreateSecurityProfileComprobarPermisos", "AddUserSinSerAdmin", "DeleteUser", "RevokePrivilege", "CreateSecurityProfileComprobarPrivilegeSinSerAdmin", "DropSecurityProfile", "DeleteUserSinSerAdmin", "DeleteUserNoExiste", "AddUser", "DropSecurityProfileSinSerAdmin", "RevokeProfilePrivilegesSinSerAdmin", "AddProfilePrivilegesSinSerAdmin" ]
+  },
+  "testPassedBranches" : {
+    "ClassMethodTests" : {
+      "3-column" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnUpdate", "ClassMethodTests.columnSetValue", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "6-select" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "9-update" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "13-select" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnUpdate", "ClassMethodTests.columnDeleteAt", "ClassMethodTests.columnSetValue", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "4-database" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableColumnAddColumn" ],
+      "12-createtable-+-droptable" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnUpdate", "ClassMethodTests.columnDeleteAt", "ClassMethodTests.columnSetValue", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "5-table" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnUpdate", "ClassMethodTests.columnDeleteAt", "ClassMethodTests.columnSetValue", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "15-parser" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnUpdate", "ClassMethodTests.columnSetValue", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "1-createtable" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "8-minisqlparser" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "2-insert" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ],
+      "10-condition" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "11-insert-+-delete" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnUpdate", "ClassMethodTests.columnDeleteAt", "ClassMethodTests.columnSetValue", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "14-update" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.tableDeleteColumn", "ClassMethodTests.conditionsWithStrings", "ClassMethodTests.tableColumnByName", "ClassMethodTests.conditionsWithInts", "ClassMethodTests.columnUpdate", "ClassMethodTests.columnDeleteAt", "ClassMethodTests.columnSetValue", "ClassMethodTests.columnIndicesWhereIsTrueDouble", "ClassMethodTests.columnIndicesWhereIsTrueString", "ClassMethodTests.columnIndicesWhereIsTrueInt", "ClassMethodTests.tableColumnAddColumn", "ClassMethodTests.conditionsWithDoubles" ],
+      "7-delete" : [ "ClassMethodTests.columnAddValue", "ClassMethodTests.createTableWithoutColumns", "ClassMethodTests.tableColumnAddColumn" ]
+    },
+    "SecurityTests" : {
+      "3-column" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "6-select" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "9-update" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "13-select" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "4-database" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "12-createtable-+-droptable" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "5-table" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "15-parser" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "1-createtable" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "8-minisqlparser" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "2-insert" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "10-condition" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "11-insert-+-delete" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "14-update" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ],
+      "7-delete" : [ "SecurityTests.RemoveProfileNotBeingAdminShouldDoNothing", "SecurityTests.loadNonExistentDatabaseSinSeguridad", "SecurityTests.CreateProfileNotBeingAdminShouldDoNothing" ]
+    },
+    "ParsingTests" : {
+      "3-column" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "6-select" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "9-update" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "13-select" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "4-database" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "12-createtable-+-droptable" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "5-table" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "15-parser" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "1-createtable" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "8-minisqlparser" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "2-insert" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "10-condition" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "11-insert-+-delete" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "14-update" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ],
+      "7-delete" : [ "ParsingTests.DropTableSinTabla", "ParsingTests.SelectCapitalizacionIncorrecta", "ParsingTests.CreateTableMalFormado", "ParsingTests.DeleteMultiplesTablas", "ParsingTests.SelectIncorrectoContenidoExtraDespues", "ParsingTests.DeleteSinCondicion", "ParsingTests.SelectIncorrectoEspaciosEntreColumnas", "ParsingTests.DeleteCapitalizacionIncorrecta", "ParsingTests.UpdateMultiplesTablas", "ParsingTests.DeleteConEspaciosIncorrectos", "ParsingTests.CreateTableCapitalizacionIncorrecta", "ParsingTests.DropTableMultiplesTablas", "ParsingTests.InsertConEspaciosIncorrectos", "ParsingTests.InsertMultiplesTablas", "ParsingTests.CreateTableIncorrectosMultiplesColumnas", "ParsingTests.DropTableCapitalizacionIncorrecta", "ParsingTests.UpdateConEspaciosIncorrectos" ]
+    },
+    "MiniSQLTests" : {
+      "3-column" : [ ],
+      "6-select" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "9-update" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "13-select" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "4-database" : [ ],
+      "12-createtable-+-droptable" : [ ],
+      "5-table" : [ ],
+      "15-parser" : [ ],
+      "1-createtable" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "8-minisqlparser" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "2-insert" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "10-condition" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ],
+      "11-insert-+-delete" : [ ],
+      "14-update" : [ ],
+      "7-delete" : [ "MiniSQLTests.LoadNonExistentTable", "MiniSQLTests.SyntacticalErrors", "MiniSQLTests.SelectSynctaticalError" ]
+    },
+    "SecurityMiniSQLTests" : {
+      "3-column" : [ ],
+      "6-select" : [ ],
+      "9-update" : [ ],
+      "13-select" : [ ],
+      "4-database" : [ ],
+      "12-createtable-+-droptable" : [ ],
+      "5-table" : [ ],
+      "15-parser" : [ ],
+      "1-createtable" : [ ],
+      "8-minisqlparser" : [ ],
+      "2-insert" : [ ],
+      "10-condition" : [ ],
+      "11-insert-+-delete" : [ ],
+      "14-update" : [ ],
+      "7-delete" : [ ]
+    }
+  }
+}

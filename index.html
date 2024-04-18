@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="scripts.js"></script>
+        <style type="text/css" media="screen">.reportImage{float: right;clear: right;}
+            .reportHeader{padding: 5px;margin-left:0px; font-size: 1.1rem; font-weight:bold;}
+            .groupStats{padding: 5px;margin:20px; font-size: .95rem; width:800px;border: 2px solid rgba(200,200,200,1);border-radius: 10px;}
+            .userStats{padding: 5px;margin-left:30px; font-size: .95rem;}
+            .reportItem{padding: 5px;margin-left:10px;vertical-align: middle;font-size: .95rem;}
+            .reportSubItem{padding: 2px;margin-left:24px;vertical-align: middle;font-size: .7rem;color: rgba(100,100,100,1)}
+            .reportSubSubItem{padding: 2px;margin-left:36px;vertical-align: middle;font-size: .7rem;color: rgba(100,100,100,1)}
+            a:link
+            {
+              text-decoration: none;
+            }
+            svg.success
+            {
+            fill: rgba(85,163,98,1);
+            }
+            svg.failed
+            {
+            fill: rgba(205,74,69,1);
+            }
+            body
+            {
+                font-family: "Segoe UI","-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue",Helvetica,Ubuntu,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+                font-size: .875rem;
+            }
+            </style>
+    </head>
+    <body>
+        <h1>Administración de Bases de Datos</h1>
+        <div class="reportSubItem">Última actualización: <span id="lastUpdate"></span></div>
+        <div class="reportSubItem"></div>
+        <div class="reportSubItem">Último commit main: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="lastCommitMain"></span></div>
+        <div class="reportSubItem">Último commit develop: &nbsp;<span id="lastCommitDevelop"></span></div>
+        <div class="reportSubItem" onclick="toggle_visibility('other-commit-timestamps')">Otras ramas</span></div>
+        <div id="other-commit-timestamps" style="display: none;">
+
+        </div>
+
+        <div class="groupStats">
+            <h2><span id="groupName"></span></h2>
+            <div class="reportItem">El branch main compila: <span id="mainCompiles"></span></div>
+            <div class="reportSubItem">El branch develop compila: <span id="developCompiles"></span></div>
+
+            <div class="reportItem">El branch main supera los tests grupales: <span id="mainPassesGroupTests"></span></div>
+            <div class="reportSubItem">El branch develop supera los tests grupales: <span id="developPassesGroupTests"></span></div>
+
+            <div class="reportItem">Coverage de los tests grupales en la rama main: <span id="mainCoverage"></span></div>
+            <div class="reportSubItem">Coverage de los tests grupales en la rama develop: <span id="developCoverage"></span></div>
+
+            <div class="reportItem">Tests del grupo "ClassMethodTests" superados para el deadline en la rama main: <span id="mainClassMethodTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "ClassMethodTests" superados para el deadline en la rama develop: <span id="developClassMethodTests"></span></div>
+            <div class="reportSubItem" onclick="toggle_visibility('developFailedClassMethodTests')">Tests no superados por develop (<span id="countFailDevelopClassMethodTests"></span>)</div>
+            <div class="reportSubItem" id="developFailedClassMethodTests" style="display: none;"></div>
+            <div class="reportSubItem" onclick="toggle_visibility('branchesPassedClassMethodTests')">Tests superados en otras ramas</div>
+            <div class="reportSubItem" id="branchesPassedClassMethodTests" style="display: none;"></div>
+
+            <div class="reportItem">Tests del grupo "MiniSQLTests" superados para el deadline en la rama main: <span id="mainMiniSQLTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "MiniSQLTests" superados para el deadline en la rama develop: <span id="developMiniSQLTests"></span></div>
+            <div class="reportSubItem" onclick="toggle_visibility('developFailedMiniSQLTests')">Tests no superados por develop (<span id="countFailDevelopMiniSQLTests"></span>)</div>
+            <div class="reportSubItem" id="developFailedMiniSQLTests" style="display: none;"></div>
+            <div class="reportSubItem" onclick="toggle_visibility('branchesPassedMiniSQLTests')">Tests superados en otras ramas</div>
+            <div class="reportSubItem" id="branchesPassedMiniSQLTests" style="display: none;"></div>
+
+            <div class="reportItem">Tests del grupo "ParsingTests" superados para el deadline en la rama main: <span id="mainParsingTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "ParsingTests" superados para el deadline en la rama develop: <span id="developParsingTests"></span></div>
+            <div class="reportSubItem" onclick="toggle_visibility('developFailedParsingTests')">Tests no superados por develop (<span id="countFailDevelopParsingTests"></span>)</div>
+            <div class="reportSubItem" id="developFailedParsingTests" style="display: none;"></div>
+            <div class="reportSubItem" onclick="toggle_visibility('branchesPassedParsingTests')">Tests superados en otras ramas</div>
+            <div class="reportSubItem" id="branchesPassedParsingTests" style="display: none;"></div>
+
+            <div class="reportItem">Tests del grupo "SecurityTests" superados para el deadline en la rama main: <span id="mainSecurityTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "SecurityTests" superados para el deadline en la rama develop: <span id="developSecurityTests"></span></div>
+            <div class="reportSubItem" onclick="toggle_visibility('developFailedSecurityTests')">Tests no superados por develop (<span id="countFailDevelopSecurityTests"></span>)</div>
+            <div class="reportSubItem" id="developFailedSecurityTests" style="display: none;"></div>
+            <div class="reportSubItem" onclick="toggle_visibility('branchesPassedSecurityTests')">Tests superados en otras ramas</div>
+            <div class="reportSubItem" id="branchesPassedSecurityTests" style="display: none;"></div>
+
+            <div class="reportItem">Tests del grupo "SecurityMiniSQLTests" superados para el deadline en la rama main: <span id="mainSecurityMiniSQLTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "SecurityMiniSQLTests" superados para el deadline en la rama develop: <span id="developSecurityMiniSQLTests"></span></div>
+            <div class="reportSubItem" onclick="toggle_visibility('developFailedSecurityMiniSQLTests')">Tests no superados por develop (<span id="countFailDevelopSecurityMiniSQLTests"></span>)</div>
+            <div class="reportSubItem" id="developFailedSecurityMiniSQLTests" style="display: none;"></div>
+            <div class="reportSubItem" onclick="toggle_visibility('branchesPassedSecurityMiniSQLTests')">Tests superados en otras ramas</div>
+            <div class="reportSubItem" id="branchesPassedSecurityMiniSQLTests" style="display: none;"></div>
+
+           <!--
+            <div class="reportItem">Tests del grupo "MiniSQLTests" superados para el deadline en la rama main: <span id="mainMiniSQLTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "MiniSQLTests" superados para el deadline en la rama develop: <span id="developMiniSQLTests"></span></div>
+            <div class="reportSubItem">Tests no superados por develop</div>
+            <div class="reportSubItem">Tests superados en otras ramas</div>
+
+            <div class="reportItem">Tests del grupo "ParsingTests" superados para el deadline en la rama main: <span id="mainParsingTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "ParsingTests" superados para el deadline en la rama develop: <span id="developParsingTests"></span></div>
+            <div class="reportSubItem">Tests no superados por develop</div>
+            <div class="reportSubItem">Tests superados en otras ramas</div>
+
+            <div class="reportItem">Tests del grupo "SecurityTests" superados para el deadline en la rama main: <span id="mainSecurityTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "SecurityTests" superados para el deadline en la rama develop: <span id="developSecurityTests"></span></div>
+            <div class="reportSubItem">Tests no superados por develop</div>
+            <div class="reportSubItem">Tests superados en otras ramas</div>
+
+            <div class="reportItem">Tests del grupo "SecurityMiniSQLTests" superados para el deadline en la rama main: <span id="mainSecurityMiniSQLTests"></span> (min 80%)</div>
+            <div class="reportSubItem">Tests del grupo "SecurityMiniSQLTests" superados para el deadline en la rama develop: <span id="developSecurityMiniSQLTests"></span></div>
+            <div class="reportSubItem">Tests no superados por develop</div>
+            <div class="reportSubItem">Tests superados en otras ramas</div>
+            -->
+        </div>
+    </body>
+</html>
