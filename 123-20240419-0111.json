@@ -1,6 +1,6 @@
 {
   "group" : "123",
-  "reportTime" : 1713519108334,
+  "reportTime" : 1713481892188,
   "memberIdNameMap" : null,
   "lastBranchCommits" : {
     "21-adduser" : {
@@ -29,8 +29,8 @@
       "id" : null
     },
     "develop" : {
-      "hash" : "33cf86fc4e22b11161b9bcb2e7e50e0c81a52f9c",
-      "date" : 1713516103000,
+      "hash" : "84b7224b019561c1085716f22315a4fdb5ebdcf0",
+      "date" : 1713429876000,
       "id" : null
     },
     "12-clase-select" : {
@@ -39,8 +39,8 @@
       "id" : null
     },
     "33-deleteuser" : {
-      "hash" : "da1e254b8e5794b6a03bea7b28bfab956c5e0588",
-      "date" : 1713516043000,
+      "hash" : "312943e5ec5629f5ca476e118817c3270bd0c705",
+      "date" : 1713429900000,
       "id" : null
     },
     "23-clase-manager" : {
@@ -980,64 +980,64 @@
   },
   "testPassedBranches" : {
     "ClassMethodTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ "createTableWithoutColumns" ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "issue-10Asier" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "createTableWithoutColumns", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "20-clase-create-table" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
       "issue-3" : [ ],
-      "12-clase-select" : [ ],
-      "33-deleteuser" : [ ],
+      "12-clase-select" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "33-deleteuser" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
       "23-clase-manager" : [ ],
-      "issue2" : [ "createTableWithoutColumns" ],
-      "14-clase-insert" : [ ],
-      "26-adduser" : [ ],
-      "Isse-10" : [ ],
-      "issue-5" : [ ],
-      "9-test-table" : [ ]
+      "issue2" : [ "columnAddValue", "conditionsWithStrings", "conditionsWithInts", "columnUpdate", "createTableWithoutColumns", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "14-clase-insert" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "26-adduser" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "Isse-10" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "issue-5" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "9-test-table" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ]
     },
     "SecurityTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ "loadNonExistentDatabaseSinSeguridad" ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "issue-10Asier" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "20-clase-create-table" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "issue-3" : [ ],
-      "12-clase-select" : [ ],
-      "33-deleteuser" : [ ],
+      "12-clase-select" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "33-deleteuser" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "23-clase-manager" : [ ],
-      "issue2" : [ "loadNonExistentDatabaseSinSeguridad" ],
-      "14-clase-insert" : [ ],
-      "26-adduser" : [ ],
-      "Isse-10" : [ ],
-      "issue-5" : [ ],
-      "9-test-table" : [ ]
+      "issue2" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "14-clase-insert" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "26-adduser" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "Isse-10" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "issue-5" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "9-test-table" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ]
     },
     "ParsingTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "issue-10Asier" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "20-clase-create-table" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "issue-3" : [ ],
-      "12-clase-select" : [ ],
-      "33-deleteuser" : [ ],
+      "12-clase-select" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "33-deleteuser" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "23-clase-manager" : [ ],
-      "issue2" : [ ],
-      "14-clase-insert" : [ ],
-      "26-adduser" : [ ],
-      "Isse-10" : [ "CreateTable" ],
-      "issue-5" : [ ],
-      "9-test-table" : [ ]
+      "issue2" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "14-clase-insert" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "26-adduser" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "Isse-10" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "CreateTable", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "issue-5" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "9-test-table" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ]
     },
     "MiniSQLTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ "LoadNonExistentTable" ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+      "issue-10Asier" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "20-clase-create-table" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
       "issue-3" : [ ],
-      "12-clase-select" : [ ],
-      "33-deleteuser" : [ ],
+      "12-clase-select" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+      "33-deleteuser" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
       "23-clase-manager" : [ ],
-      "issue2" : [ "LoadNonExistentTable" ],
-      "14-clase-insert" : [ ],
-      "26-adduser" : [ ],
-      "Isse-10" : [ "CreateTable" ],
-      "issue-5" : [ ],
-      "9-test-table" : [ ]
+      "issue2" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "14-clase-insert" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+      "26-adduser" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+      "Isse-10" : [ "SyntacticalErrors", "SelectSynctaticalError", "CreateTable" ],
+      "issue-5" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+      "9-test-table" : [ "SyntacticalErrors", "SelectSynctaticalError" ]
     },
     "SecurityMiniSQLTests" : {
       "21-adduser" : [ ],

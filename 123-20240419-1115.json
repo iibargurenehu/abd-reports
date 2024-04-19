@@ -1,6 +1,6 @@
 {
   "group" : "123",
-  "reportTime" : 1713519108334,
+  "reportTime" : 1713518143135,
   "memberIdNameMap" : null,
   "lastBranchCommits" : {
     "21-adduser" : {
@@ -969,7 +969,8 @@
     "ClassMethodTests" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
     "SecurityTests" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
     "ParsingTests" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
-    "MiniSQLTests" : [ "SyntacticalErrors", "SelectSynctaticalError" ]
+    "MiniSQLTests" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+    "SecurityMiniSQLTests" : [ ]
   },
   "testsFailedDevelop" : {
     "ClassMethodTests" : [ "createInsertUpdateDeleteSelectWithConditions", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "createInsertSelectWhereGreaterInt", "createTable", "createInsertSelectColumns", "columnDeleteAt", "columnConstructor", "createTableWithoutColumns", "columnSetValue", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsertDeleteSelectColumns", "createInsert", "createInsertSelectWhereEqualInt", "createInsertSelectWhereLessInt", "createDropSelectNonExistent", "tableConstructor" ],
@@ -980,9 +981,9 @@
   },
   "testPassedBranches" : {
     "ClassMethodTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ "createTableWithoutColumns" ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "issue-10Asier" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "createTableWithoutColumns", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "20-clase-create-table" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
       "issue-3" : [ ],
       "12-clase-select" : [ ],
       "33-deleteuser" : [ ],
@@ -995,9 +996,9 @@
       "9-test-table" : [ ]
     },
     "SecurityTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ "loadNonExistentDatabaseSinSeguridad" ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "issue-10Asier" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "20-clase-create-table" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "issue-3" : [ ],
       "12-clase-select" : [ ],
       "33-deleteuser" : [ ],
@@ -1010,9 +1011,9 @@
       "9-test-table" : [ ]
     },
     "ParsingTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "issue-10Asier" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "20-clase-create-table" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "issue-3" : [ ],
       "12-clase-select" : [ ],
       "33-deleteuser" : [ ],
@@ -1025,9 +1026,9 @@
       "9-test-table" : [ ]
     },
     "MiniSQLTests" : {
-      "21-adduser" : [ ],
-      "issue-10Asier" : [ "LoadNonExistentTable" ],
-      "20-clase-create-table" : [ ],
+      "21-adduser" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+      "issue-10Asier" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "20-clase-create-table" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
       "issue-3" : [ ],
       "12-clase-select" : [ ],
       "33-deleteuser" : [ ],

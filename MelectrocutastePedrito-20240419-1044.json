@@ -1,6 +1,6 @@
 {
   "group" : "MelectrocutastePedrito",
-  "reportTime" : 1713519108334,
+  "reportTime" : 1713516254801,
   "memberIdNameMap" : null,
   "lastBranchCommits" : {
     "ClaseDatabase" : {
@@ -1473,7 +1473,8 @@
     "ClassMethodTests" : [ "columnAddValue", "tableDeleteColumn", "createInsertUpdateDeleteSelectWithConditions", "conditionsWithStrings", "tableColumnByName", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "conditionsWithInts", "createInsertSelectWhereGreaterInt", "createTable", "columnDeleteAt", "columnConstructor", "createTableWithoutColumns", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsert", "createInsertSelectWhereEqualInt", "columnIndicesWhereIsTrueDouble", "createInsertSelectWhereLessInt", "columnIndicesWhereIsTrueString", "tableConstructor", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
     "SecurityTests" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
     "ParsingTests" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DropTableConEspacios", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "CreateTable", "CreateTableConEspacios", "DropTable", "InsertMultiplesTablas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
-    "MiniSQLTests" : [ "CreateTableYaExiste", "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError", "CreateTable", "DropTableNoExiste" ]
+    "MiniSQLTests" : [ "CreateTableYaExiste", "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError", "CreateTable", "DropTableNoExiste" ],
+    "SecurityMiniSQLTests" : [ ]
   },
   "testsFailedDevelop" : {
     "ClassMethodTests" : [ "columnUpdate", "createInsertSelectColumns", "columnSetValue", "createInsertDeleteSelectColumns", "createDropSelectNonExistent" ],
@@ -1484,13 +1485,13 @@
   },
   "testPassedBranches" : {
     "ClassMethodTests" : {
-      "ClaseDatabase" : [ ],
-      "ClaseCondition" : [ ],
+      "ClaseDatabase" : [ "columnAddValue", "tableDeleteColumn", "createInsertUpdateDeleteSelectWithConditions", "conditionsWithStrings", "tableColumnByName", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "conditionsWithInts", "createInsertSelectWhereGreaterInt", "createTable", "columnDeleteAt", "columnConstructor", "createTableWithoutColumns", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsert", "createInsertSelectWhereEqualInt", "columnIndicesWhereIsTrueDouble", "createInsertSelectWhereLessInt", "columnIndicesWhereIsTrueString", "tableConstructor", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ClaseCondition" : [ "columnAddValue", "columnConstructor", "createTableWithoutColumns", "tableConstructor", "tableColumnAddColumn" ],
       "ClaseSelect" : [ ],
-      "ClaseColumn" : [ ],
-      "ClaseAddUser" : [ ],
-      "WorkFlowDevelop2(Medianoche)" : [ ],
-      "WorkflowDevelop1(PullRequest)" : [ ],
+      "ClaseColumn" : [ "columnAddValue", "columnDeleteAt", "createTableWithoutColumns", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn" ],
+      "ClaseAddUser" : [ "columnAddValue", "createTableWithoutColumns", "tableColumnAddColumn" ],
+      "WorkFlowDevelop2(Medianoche)" : [ "columnAddValue", "createTableWithoutColumns", "tableColumnAddColumn" ],
+      "WorkflowDevelop1(PullRequest)" : [ "columnAddValue", "createTableWithoutColumns", "tableColumnAddColumn" ],
       "WorkflowMain" : [ ],
       "WorkFlowOtrasRamas" : [ ],
       "ClaseInsert" : [ ],
@@ -1502,13 +1503,13 @@
       "ClaseDropTable" : [ ]
     },
     "SecurityTests" : {
-      "ClaseDatabase" : [ ],
-      "ClaseCondition" : [ ],
+      "ClaseDatabase" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ClaseCondition" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "ClaseSelect" : [ ],
-      "ClaseColumn" : [ ],
-      "ClaseAddUser" : [ ],
-      "WorkFlowDevelop2(Medianoche)" : [ ],
-      "WorkflowDevelop1(PullRequest)" : [ ],
+      "ClaseColumn" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ClaseAddUser" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "WorkFlowDevelop2(Medianoche)" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "WorkflowDevelop1(PullRequest)" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "WorkflowMain" : [ ],
       "WorkFlowOtrasRamas" : [ ],
       "ClaseInsert" : [ ],
@@ -1520,13 +1521,13 @@
       "ClaseDropTable" : [ ]
     },
     "ParsingTests" : {
-      "ClaseDatabase" : [ ],
-      "ClaseCondition" : [ "CreateTableIncorrectosMultiplesColumnas" ],
+      "ClaseDatabase" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DropTableConEspacios", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "CreateTable", "CreateTableConEspacios", "DropTable", "InsertMultiplesTablas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ClaseCondition" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "ClaseSelect" : [ ],
-      "ClaseColumn" : [ "CreateTableIncorrectosMultiplesColumnas" ],
-      "ClaseAddUser" : [ "CreateTableIncorrectosMultiplesColumnas" ],
-      "WorkFlowDevelop2(Medianoche)" : [ "CreateTableIncorrectosMultiplesColumnas" ],
-      "WorkflowDevelop1(PullRequest)" : [ "CreateTableIncorrectosMultiplesColumnas" ],
+      "ClaseColumn" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ClaseAddUser" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "WorkFlowDevelop2(Medianoche)" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "WorkflowDevelop1(PullRequest)" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "WorkflowMain" : [ "CreateTableIncorrectosMultiplesColumnas" ],
       "WorkFlowOtrasRamas" : [ "CreateTableIncorrectosMultiplesColumnas" ],
       "ClaseInsert" : [ ],
@@ -1538,13 +1539,13 @@
       "ClaseDropTable" : [ ]
     },
     "MiniSQLTests" : {
-      "ClaseDatabase" : [ ],
-      "ClaseCondition" : [ ],
+      "ClaseDatabase" : [ "CreateTableYaExiste", "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError", "CreateTable" ],
+      "ClaseCondition" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "ClaseSelect" : [ ],
-      "ClaseColumn" : [ ],
-      "ClaseAddUser" : [ ],
-      "WorkFlowDevelop2(Medianoche)" : [ ],
-      "WorkflowDevelop1(PullRequest)" : [ ],
+      "ClaseColumn" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ClaseAddUser" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "WorkFlowDevelop2(Medianoche)" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "WorkflowDevelop1(PullRequest)" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "WorkflowMain" : [ ],
       "WorkFlowOtrasRamas" : [ ],
       "ClaseInsert" : [ ],

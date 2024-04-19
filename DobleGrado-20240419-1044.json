@@ -1,6 +1,6 @@
 {
   "group" : "DobleGrado",
-  "reportTime" : 1713519108334,
+  "reportTime" : 1713516254801,
   "memberIdNameMap" : null,
   "lastBranchCommits" : {
     "4-structureTable" : {
@@ -871,7 +871,8 @@
     "ClassMethodTests" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "createTableWithoutColumns", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
     "SecurityTests" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
     "ParsingTests" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
-    "MiniSQLTests" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ]
+    "MiniSQLTests" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+    "SecurityMiniSQLTests" : [ ]
   },
   "testsFailedDevelop" : {
     "ClassMethodTests" : [ "createInsertUpdateDeleteSelectWithConditions", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "createInsertSelectWhereGreaterInt", "createTable", "createInsertSelectColumns", "columnDeleteAt", "columnConstructor", "columnSetValue", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsertDeleteSelectColumns", "createInsert", "createInsertSelectWhereEqualInt", "createInsertSelectWhereLessInt", "createDropSelectNonExistent", "tableConstructor" ],
@@ -882,37 +883,37 @@
   },
   "testPassedBranches" : {
     "ClassMethodTests" : {
-      "4-structureTable" : [ ],
+      "4-structureTable" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "createTableWithoutColumns", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
       "7-condition" : [ ],
       "10-delete-insert-y-select" : [ ],
       "14-updateclass" : [ ],
-      "11_dropTable" : [ ],
+      "11_dropTable" : [ "columnAddValue", "conditionsWithStrings", "conditionsWithInts", "createTableWithoutColumns", "tableColumnAddColumn", "conditionsWithDoubles" ],
       "6-workflows" : [ ],
-      "12-miniSQLparser" : [ ],
+      "12-miniSQLparser" : [ "createTableWithoutColumns" ],
       "17-minisql-parser" : [ ],
       "15-createdatabasefortests" : [ ],
       "5-structuredatabases" : [ ],
       "3-structure-columnas" : [ ]
     },
     "SecurityTests" : {
-      "4-structureTable" : [ ],
+      "4-structureTable" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "7-condition" : [ ],
       "10-delete-insert-y-select" : [ ],
       "14-updateclass" : [ ],
-      "11_dropTable" : [ ],
+      "11_dropTable" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "6-workflows" : [ ],
-      "12-miniSQLparser" : [ ],
+      "12-miniSQLparser" : [ "loadNonExistentDatabaseSinSeguridad" ],
       "17-minisql-parser" : [ ],
       "15-createdatabasefortests" : [ ],
       "5-structuredatabases" : [ ],
       "3-structure-columnas" : [ ]
     },
     "ParsingTests" : {
-      "4-structureTable" : [ ],
+      "4-structureTable" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "7-condition" : [ ],
       "10-delete-insert-y-select" : [ ],
       "14-updateclass" : [ ],
-      "11_dropTable" : [ ],
+      "11_dropTable" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "6-workflows" : [ ],
       "12-miniSQLparser" : [ ],
       "17-minisql-parser" : [ ],
@@ -921,13 +922,13 @@
       "3-structure-columnas" : [ ]
     },
     "MiniSQLTests" : {
-      "4-structureTable" : [ ],
+      "4-structureTable" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "7-condition" : [ ],
       "10-delete-insert-y-select" : [ ],
       "14-updateclass" : [ ],
-      "11_dropTable" : [ ],
+      "11_dropTable" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "6-workflows" : [ ],
-      "12-miniSQLparser" : [ ],
+      "12-miniSQLparser" : [ "LoadNonExistentTable" ],
       "17-minisql-parser" : [ ],
       "15-createdatabasefortests" : [ ],
       "5-structuredatabases" : [ ],

@@ -1,6 +1,6 @@
 {
   "group" : "SQLazo",
-  "reportTime" : 1713519108334,
+  "reportTime" : 1713478657347,
   "memberIdNameMap" : null,
   "lastBranchCommits" : {
     "ramaEntrega2_J" : {
@@ -97,6 +97,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "conditionsWithInts" : [ {
         "hash" : "1b50d7da3a6b7650044bf4903a2ca6f4279bfdb0",
@@ -110,6 +114,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "conditionsWithStrings" : [ {
         "hash" : "1b50d7da3a6b7650044bf4903a2ca6f4279bfdb0",
@@ -123,11 +131,19 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "columnAddValue" : [ {
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "conditionsWithDoubles" : [ {
         "hash" : "1b50d7da3a6b7650044bf4903a2ca6f4279bfdb0",
@@ -141,11 +157,19 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "columnIndicesWhereIsTrueDouble" : [ {
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "2a6bbc3bafd82001028cf2f089afcaeda6831777",
         "date" : 1711209868000,
@@ -159,6 +183,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "tableColumnAddColumn" : [ {
         "hash" : "ece0fad8d7f4b262684753fd618e59be5b428065",
@@ -168,11 +196,19 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "columnIndicesWhereIsTrueInt" : [ {
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "2a6bbc3bafd82001028cf2f089afcaeda6831777",
         "date" : 1711209868000,
@@ -183,6 +219,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "2a6bbc3bafd82001028cf2f089afcaeda6831777",
         "date" : 1711209868000,
         "id" : "azubia026"
@@ -191,6 +231,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "2a6bbc3bafd82001028cf2f089afcaeda6831777",
         "date" : 1711209868000,
@@ -210,6 +254,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "CreateProfileNotBeingAdminShouldDoNothing" : [ {
         "hash" : "2c3892b5a33a110aa4ad1ecea71fd1be8974f116",
@@ -223,11 +271,19 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "loadNonExistentDatabaseSinSeguridad" : [ {
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ]
     },
     "ParsingTests" : {
@@ -239,6 +295,10 @@
       "DropTableMultiplesTablas" : [ {
         "hash" : "ece0fad8d7f4b262684753fd618e59be5b428065",
         "date" : 1710174481000,
+        "id" : "azubia026"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
         "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
@@ -258,6 +318,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -270,6 +334,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
@@ -284,6 +352,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -296,6 +368,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
@@ -315,6 +391,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -327,6 +407,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
@@ -341,6 +425,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -353,6 +441,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
@@ -367,6 +459,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -379,6 +475,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
@@ -393,6 +493,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -405,6 +509,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
@@ -419,6 +527,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -431,6 +543,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
@@ -445,6 +561,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -458,6 +578,10 @@
         "date" : 1713426865000,
         "id" : "asastre007"
       }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
+      }, {
         "hash" : "7e3a77eb3f02a3a6e31d2a7f2e68d40a483818df",
         "date" : 1713426794000,
         "id" : "osegurola001"
@@ -468,6 +592,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       } ],
       "SyntacticalErrors" : [ {
         "hash" : "13353bfad54387917198900f9560d01aa5b81865",
@@ -481,6 +609,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "0572c4b69d18bc6f0039d6ffff726feea86dd78d",
         "date" : 1710759055000,
@@ -518,6 +650,10 @@
         "hash" : "3689a4b0aa1e16d4cb1acbac5e7bc8987e510528",
         "date" : 1713426865000,
         "id" : "asastre007"
+      }, {
+        "hash" : "a1143586d775817576f117a3e7e91cd6f75c9a0c",
+        "date" : 1713426188000,
+        "id" : "azubia026"
       }, {
         "hash" : "0572c4b69d18bc6f0039d6ffff726feea86dd78d",
         "date" : 1710759055000,
@@ -577,64 +713,64 @@
   },
   "testPassedBranches" : {
     "ClassMethodTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ "createTableWithoutColumns" ],
-      "ramaSastre" : [ ],
-      "ramaEntrega1_J" : [ ],
-      "ramaEntrega2_Z" : [ ],
-      "ramaEntrega1_A" : [ ],
-      "cambiosExecuteParser" : [ ],
+      "ramaEntrega2_J" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaEntrega1" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaEntrega1_O" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaJulen" : [ "columnAddValue", "createTableWithoutColumns", "tableColumnAddColumn" ],
+      "ramaSastre" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaEntrega1_J" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaEntrega2_Z" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaEntrega1_A" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "cambiosExecuteParser" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
       "ramaEntrega2_A" : [ ],
-      "ramaOier(currante)" : [ "createTableWithoutColumns" ],
-      "ramaEntrega1_Z" : [ ],
-      "ramaZubia" : [ "createTableWithoutColumns" ]
+      "ramaOier(currante)" : [ "columnAddValue", "createTableWithoutColumns", "tableColumnAddColumn" ],
+      "ramaEntrega1_Z" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaZubia" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "createTableWithoutColumns", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ]
     },
     "SecurityTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ ],
-      "ramaSastre" : [ ],
-      "ramaEntrega1_J" : [ ],
-      "ramaEntrega2_Z" : [ ],
-      "ramaEntrega1_A" : [ ],
-      "cambiosExecuteParser" : [ ],
+      "ramaEntrega2_J" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega1" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega1_O" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaJulen" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaSastre" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega1_J" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega2_Z" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega1_A" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "cambiosExecuteParser" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "ramaEntrega2_A" : [ ],
-      "ramaOier(currante)" : [ ],
-      "ramaEntrega1_Z" : [ ],
-      "ramaZubia" : [ ]
+      "ramaOier(currante)" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega1_Z" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaZubia" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ]
     },
     "ParsingTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ ],
-      "ramaSastre" : [ ],
-      "ramaEntrega1_J" : [ ],
-      "ramaEntrega2_Z" : [ ],
-      "ramaEntrega1_A" : [ ],
-      "cambiosExecuteParser" : [ ],
+      "ramaEntrega2_J" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega1" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega1_O" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaJulen" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaSastre" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega1_J" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega2_Z" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DropTableConEspacios", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "DropTable", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega1_A" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "cambiosExecuteParser" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "ramaEntrega2_A" : [ ],
-      "ramaOier(currante)" : [ ],
-      "ramaEntrega1_Z" : [ ],
-      "ramaZubia" : [ ]
+      "ramaOier(currante)" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega1_Z" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaZubia" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ]
     },
     "MiniSQLTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ ],
-      "ramaSastre" : [ ],
-      "ramaEntrega1_J" : [ ],
-      "ramaEntrega2_Z" : [ ],
-      "ramaEntrega1_A" : [ ],
-      "cambiosExecuteParser" : [ ],
+      "ramaEntrega2_J" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ramaEntrega1" : [ "LoadNonExistentTable" ],
+      "ramaEntrega1_O" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ramaJulen" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ramaSastre" : [ "LoadNonExistentTable" ],
+      "ramaEntrega1_J" : [ "LoadNonExistentTable" ],
+      "ramaEntrega2_Z" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ramaEntrega1_A" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "cambiosExecuteParser" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "ramaEntrega2_A" : [ ],
-      "ramaOier(currante)" : [ ],
-      "ramaEntrega1_Z" : [ ],
-      "ramaZubia" : [ ]
+      "ramaOier(currante)" : [ "LoadNonExistentTable" ],
+      "ramaEntrega1_Z" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ramaZubia" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ]
     },
     "SecurityMiniSQLTests" : {
       "ramaEntrega2_J" : [ ],

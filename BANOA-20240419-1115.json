@@ -1,6 +1,6 @@
 {
   "group" : "BANOA",
-  "reportTime" : 1713519108334,
+  "reportTime" : 1713518143135,
   "memberIdNameMap" : null,
   "lastBranchCommits" : {
     "select" : {
@@ -2114,8 +2114,10 @@
   },
   "testsPassedDevelop" : {
     "ClassMethodTests" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnDeleteAt", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+    "SecurityTests" : [ ],
     "ParsingTests" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
-    "MiniSQLTests" : [ "SyntacticalErrors", "SelectSynctaticalError" ]
+    "MiniSQLTests" : [ "SyntacticalErrors", "SelectSynctaticalError" ],
+    "SecurityMiniSQLTests" : [ ]
   },
   "testsFailedDevelop" : {
     "ClassMethodTests" : [ "createInsertUpdateDeleteSelectWithConditions", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "createInsertSelectWhereGreaterInt", "createTable", "columnUpdate", "createInsertSelectColumns", "columnConstructor", "createTableWithoutColumns", "columnSetValue", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsertDeleteSelectColumns", "createInsert", "createInsertSelectWhereEqualInt", "createInsertSelectWhereLessInt", "createDropSelectNonExistent", "tableConstructor" ],
@@ -2126,12 +2128,12 @@
   },
   "testPassedBranches" : {
     "ClassMethodTests" : {
-      "select" : [ "createTableWithoutColumns" ],
-      "column" : [ ],
-      "insert" : [ ],
+      "select" : [ "columnAddValue", "tableColumnByName", "createTableWithoutColumns", "tableColumnAddColumn" ],
+      "column" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "insert" : [ "columnAddValue", "tableColumnAddColumn" ],
       "revoke" : [ ],
-      "update" : [ ],
-      "deleteuser" : [ ],
+      "update" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "deleteuser" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
       "createsecurityprofile" : [ ],
       "delete" : [ "createTableWithoutColumns" ],
       "minisqlparser" : [ "createTableWithoutColumns" ],
@@ -2160,12 +2162,12 @@
       "grant" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "revokePrivilegeNotBeingAdminShouldDoNothing", "grantPrivilegeNotBeingAdminShouldDoNothing" ]
     },
     "ParsingTests" : {
-      "select" : [ ],
-      "column" : [ ],
-      "insert" : [ ],
+      "select" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "column" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "insert" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "revoke" : [ ],
       "update" : [ ],
-      "deleteuser" : [ ],
+      "deleteuser" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "createsecurityprofile" : [ ],
       "delete" : [ ],
       "minisqlparser" : [ ],
@@ -2177,12 +2179,12 @@
       "grant" : [ ]
     },
     "MiniSQLTests" : {
-      "select" : [ "LoadNonExistentTable" ],
-      "column" : [ "LoadNonExistentTable" ],
-      "insert" : [ "LoadNonExistentTable" ],
+      "select" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "column" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "insert" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "revoke" : [ ],
       "update" : [ "LoadNonExistentTable" ],
-      "deleteuser" : [ "LoadNonExistentTable" ],
+      "deleteuser" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "createsecurityprofile" : [ ],
       "delete" : [ "LoadNonExistentTable" ],
       "minisqlparser" : [ "LoadNonExistentTable" ],

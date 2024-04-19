@@ -1,6 +1,6 @@
 {
   "group" : "SQLazo",
-  "reportTime" : 1713519108334,
+  "reportTime" : 1713518143135,
   "memberIdNameMap" : null,
   "lastBranchCommits" : {
     "ramaEntrega2_J" : {
@@ -566,7 +566,8 @@
     "ClassMethodTests" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
     "SecurityTests" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
     "ParsingTests" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DropTableConEspacios", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "DropTable", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
-    "MiniSQLTests" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ]
+    "MiniSQLTests" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+    "SecurityMiniSQLTests" : [ ]
   },
   "testsFailedDevelop" : {
     "ClassMethodTests" : [ "createInsertUpdateDeleteSelectWithConditions", "createInsertUpdate", "createInsertSelectWithConditions", "createInsertAndEmptySelectWhere", "createInsertSelectWhereGreaterInt", "createTable", "createInsertSelectColumns", "columnDeleteAt", "columnConstructor", "createTableWithoutColumns", "columnSetValue", "createInsertSelectWhereEqualsString", "createInsertIfNonExistentTable", "createInsertDeleteSelectColumns", "createInsert", "createInsertSelectWhereEqualInt", "createInsertSelectWhereLessInt", "createDropSelectNonExistent", "tableConstructor" ],
@@ -577,10 +578,10 @@
   },
   "testPassedBranches" : {
     "ClassMethodTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ "createTableWithoutColumns" ],
+      "ramaEntrega2_J" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaEntrega1" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaEntrega1_O" : [ "columnAddValue", "tableDeleteColumn", "conditionsWithStrings", "tableColumnByName", "conditionsWithInts", "columnUpdate", "columnIndicesWhereIsTrueDouble", "columnIndicesWhereIsTrueString", "columnIndicesWhereIsTrueInt", "tableColumnAddColumn", "conditionsWithDoubles" ],
+      "ramaJulen" : [ "columnAddValue", "createTableWithoutColumns", "tableColumnAddColumn" ],
       "ramaSastre" : [ ],
       "ramaEntrega1_J" : [ ],
       "ramaEntrega2_Z" : [ ],
@@ -592,10 +593,10 @@
       "ramaZubia" : [ "createTableWithoutColumns" ]
     },
     "SecurityTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ ],
+      "ramaEntrega2_J" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega1" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaEntrega1_O" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
+      "ramaJulen" : [ "RemoveProfileNotBeingAdminShouldDoNothing", "loadNonExistentDatabaseSinSeguridad", "CreateProfileNotBeingAdminShouldDoNothing" ],
       "ramaSastre" : [ ],
       "ramaEntrega1_J" : [ ],
       "ramaEntrega2_Z" : [ ],
@@ -607,10 +608,10 @@
       "ramaZubia" : [ ]
     },
     "ParsingTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ ],
+      "ramaEntrega2_J" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega1" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaEntrega1_O" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "DropTableMultiplesTablas", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
+      "ramaJulen" : [ "DropTableSinTabla", "SelectCapitalizacionIncorrecta", "CreateTableMalFormado", "DeleteMultiplesTablas", "SelectIncorrectoContenidoExtraDespues", "DeleteSinCondicion", "SelectIncorrectoEspaciosEntreColumnas", "DeleteCapitalizacionIncorrecta", "UpdateMultiplesTablas", "DeleteConEspaciosIncorrectos", "CreateTableCapitalizacionIncorrecta", "InsertConEspaciosIncorrectos", "InsertMultiplesTablas", "CreateTableIncorrectosMultiplesColumnas", "DropTableCapitalizacionIncorrecta", "UpdateConEspaciosIncorrectos" ],
       "ramaSastre" : [ ],
       "ramaEntrega1_J" : [ ],
       "ramaEntrega2_Z" : [ ],
@@ -622,10 +623,10 @@
       "ramaZubia" : [ ]
     },
     "MiniSQLTests" : {
-      "ramaEntrega2_J" : [ ],
-      "ramaEntrega1" : [ ],
-      "ramaEntrega1_O" : [ ],
-      "ramaJulen" : [ ],
+      "ramaEntrega2_J" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ramaEntrega1" : [ "LoadNonExistentTable" ],
+      "ramaEntrega1_O" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
+      "ramaJulen" : [ "LoadNonExistentTable", "SyntacticalErrors", "SelectSynctaticalError" ],
       "ramaSastre" : [ ],
       "ramaEntrega1_J" : [ ],
       "ramaEntrega2_Z" : [ ],
